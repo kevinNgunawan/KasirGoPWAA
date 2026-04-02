@@ -1,0 +1,43 @@
+{
+  "name": "kasirgo",
+  "version": "1.0.0",
+  "description": "Aplikasi Kasir Modern PWA berbasis web — Dashboard, Transaksi POS, Produk, Kategori, Laporan, Pengaturan",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js",
+    "dev": "node server.js",
+    "python": "python server.py",
+    "python3": "python3 server.py"
+  },
+  "keywords": [
+    "kasir",
+    "pos",
+    "point-of-sale",
+    "pwa",
+    "progressive-web-app",
+    "javascript",
+    "bootstrap",
+    "offline"
+  ],
+  "author": "KasirGO",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "http://localhost:3000",
+  "private": true,
+  "pwa": {
+    "name": "KasirGO",
+    "short_name": "KasirGO",
+    "theme_color": "#4a90e2",
+    "background_color": "#f5f7fa",
+    "display": "standalone"
+  }
+}
